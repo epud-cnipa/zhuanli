@@ -1,0 +1,14 @@
+/*** 移动端响应式CSS-1280px ***/
+.wrap{min-width:1000px}
+.w{width:980px}
+/*** CONTENT ***/
+.header .nli a{padding:0 25px;font-size:16px}
+.index-search .stxt{width:460px}
+.tips-desc{width:500px}
+.index-update{padding-left:240px}
+.index-update .tit{width:180px;margin-left:-200px}
+.index-update .uli a{padding-left:15px;background-position:0 -52px}
+.affair-form .group{padding-left:110px}
+.affair-form .group .tit{width:90px;margin-left:-110px;padding:10px}
+.advanced-form .group{padding-left:110px}
+.advanced-form .group .tit{width:90px;margin-left:-110px;padding:10px}
