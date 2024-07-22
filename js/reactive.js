@@ -15,7 +15,8 @@ $(function() {
   });
   function o() {
     $(swi).show(0);
-    $(swi).bind("click",
+    // $(swi).bind("click",
+    $(swi).bind("",
     function(event) {
       event.stopPropagation();
       $("html").removeClass("topbar-active");
