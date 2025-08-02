@@ -161,7 +161,7 @@ $(document).ready(function () {
 function to_page(i) {
     $("#pageNum").val(i);
     var params = 'an=' +'2022100776657'+'&jn=' +'400902'+'&ggr=' +'20240301'+'&pubtype=' +'3'+'&currentPage=' + i;
-    $("body").mask('请稍候...');
+    $("body").mask('请稍候......');
     var url =
     $.ajax({
         url: "/Dxb/GetWgPic?" + params,
